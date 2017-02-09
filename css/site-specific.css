@@ -1,6 +1,9 @@
 body{
     font-family: 'Roboto Condensed', helvetica, sans-serif;
-    background-color: #ffffff;
+    background-image: url("stream_graph1.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
 }
 
 div.title{
