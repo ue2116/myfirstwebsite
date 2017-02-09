@@ -1,6 +1,6 @@
 body{
     font-family: 'Roboto Condensed', helvetica, sans-serif;
-    background-image: src="img/stream_graph1.jpg";
+    background-image:url(stream_graph1.jpg);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
