@@ -1,2 +1,3 @@
 # My test website
-ue2116.githup.io/myfirstwebsite
+
+https://ue2116.github.io/myfirstwebsite/
