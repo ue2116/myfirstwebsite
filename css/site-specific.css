@@ -52,6 +52,12 @@ img.bioImage{
     display: block;
 }
 
+img.biochartImage{
+    width: 60%;
+    margin: auto;
+    display: block;
+}
+
 img.chartImage{
     width: 50%;
     margin: auto;
