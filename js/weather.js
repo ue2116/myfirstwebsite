@@ -18,7 +18,7 @@ function setup(){
     button = select('#submit');
     city= select('#city');
     button.mousePressed(queryAPI);
-    img=loadImage("../img/imgs/codes/300.png");
+    img=loadImage("../img/codes/300.png");
     //imageicon = loadImage("../img/imgs/"+icon+".png");
    
 }
