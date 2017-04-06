@@ -123,7 +123,7 @@ function setup(){
     img801=loadImage("../img/codes/300.png");
     img803=loadImage("../img/codes/300.png");
     img804=loadImage("../img/codes/300.png");
-    imageicon = loadImage("../img/imgs/"+icon+".png");
+    imageicon=loadImage("../img/codes/"+icon+".png");
    
 }
 
