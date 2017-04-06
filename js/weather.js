@@ -78,7 +78,7 @@ function draw(){
         if((icon==300) || (icon==301) || (icon==301) || (icon==302) || (icon==310) || (icon==311) || (icon==312) || (icon==313) || (icon==314) || (icon==321)){
             image(img300,80,80);
         }
-        else if(icon==200){
+        else if((icon==200) || (icon==201)|| (icon==202)|| (icon==210)|| (icon==211)|| (icon==212)|| (icon==221)|| (icon==230)|| (icon==231)|| (icon==232)){
             image(img200,80,80);
         }
         
