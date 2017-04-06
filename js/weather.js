@@ -100,8 +100,8 @@ function draw(){
         else if((icon==701) || (icon==711)|| (icon==721)|| (icon==731)|| (icon==741) || (icon==751)|| (icon==761)|| (icon==762)|| (icon==771) || (icon==781)){
             image(img701,80,80); 
         }   
-        else if(icon==880){
-            image(img880,80,80);
+        else if(icon==800){
+            image(img800,80,80);
         } 
         else if(icon==801){
             image(img801,80,80);
