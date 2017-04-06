@@ -161,6 +161,11 @@ function draw(){
         text("Humidity: "+ str(humidity)+ "%",20,40);
         text("Wind: " +str(wind)+" MPH",20,60);
         text("imageID: "+str(icon)+" ", 20, 80);
-        image(img803,80,80);
+        //image(img803,80,80);
+        
+        if(icon=300 || icon=301){
+            image(img300,80,80);
+        }
+        
     } 
 }
