@@ -75,10 +75,10 @@ function draw(){
         text("imageID: "+str(icon)+" ", 20, 80);
         //image(img803,80,80);
         
-        if(icon=300 || icon=301){
+        if(icon=300){
             image(img300,80,80);
         }
-        else if (icon=200){
+        else if(icon=200){
             image(img200,80,80);
         }
         
