@@ -8,6 +8,7 @@ var humidity = 0;
 var button;
 var icon;
 var wind;
+var cloud;
 var imageicon;
 var img200;
 var img300;
@@ -61,6 +62,7 @@ function getweatherData(apiData){
     console.log(weatherData);
     wind=weatherData.wind.speed;
     icon = weatherData.weather[0].id;
+    cloud= weatherData.clouds.all;
 }
 
 
@@ -72,7 +74,8 @@ function draw(){
         text("Temperature: " +str(temperature)+" F",20,20);
         text("Humidity: "+ str(humidity)+ "%",20,40);
         text("Wind: " +str(wind)+" MPH",20,60);
-        text("imageID: "+str(icon)+" ", 20, 80);
+        text("Clouds: " +str(cloud)+ "%", 20, 80);
+        //text("imageID: "+str(icon)+" ", 20, 80);
         //image(img803,80,80);
         
         if((icon==300) || (icon==301) || (icon==301) || (icon==302) || (icon==310) || (icon==311) || (icon==312) || (icon==313) || (icon==314) || (icon==321)){
