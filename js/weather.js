@@ -71,7 +71,7 @@ function draw(){
     if (weatherData){
         noStroke();
         fill (0);
-        textSize(32);
+        textSize(18);
         text("Temperature: " +str(temperature)+" F",20,20);
         text("Humidity: "+ str(humidity)+ "%",20,40);
         text("Wind: " +str(wind)+" MPH",20,60);
