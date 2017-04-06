@@ -57,6 +57,6 @@ function draw(){
         text("Humidity: "+ str(humidity)+ "%",20,40);
         text("Wind: " +str(wind)+" MPH",20,60);
         text("imageID: "+str(icon)+" ", 20, 80);
-        image(img,0,0);
+        image(img,50,20);
     } 
 }
