@@ -166,6 +166,9 @@ function draw(){
         if(icon=300 || icon=301){
             image(img300,80,80);
         }
+        else if (icon=200){
+            image(img200,80,80)
+        }
         
     } 
 }
