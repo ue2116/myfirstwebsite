@@ -69,8 +69,61 @@ function setup(){
     button = select('#submit');
     city= select('#city');
     button.mousePressed(queryAPI);
+    img200=loadImage("../img/codes/300.png");
+    img201=loadImage("../img/codes/300.png");
+    img202=loadImage("../img/codes/300.png");
+    img210=loadImage("../img/codes/300.png");
+    img211=loadImage("../img/codes/300.png");
+    img212=loadImage("../img/codes/300.png");
+    img221=loadImage("../img/codes/300.png");
+    img230=loadImage("../img/codes/300.png");
+    img231=loadImage("../img/codes/300.png");
+    img232=loadImage("../img/codes/300.png");
     img300=loadImage("../img/codes/300.png");
-    //imageicon = loadImage("../img/imgs/"+icon+".png");
+    img301=loadImage("../img/codes/300.png");
+    img302=loadImage("../img/codes/300.png");
+    img310=loadImage("../img/codes/300.png");
+    img311=loadImage("../img/codes/300.png");
+    img312=loadImage("../img/codes/300.png");
+    img313=loadImage("../img/codes/300.png");
+    img314=loadImage("../img/codes/300.png");
+    img321=loadImage("../img/codes/300.png");
+    img500=loadImage("../img/codes/300.png");
+    img501=loadImage("../img/codes/300.png");
+    img502=loadImage("../img/codes/300.png");
+    img503=loadImage("../img/codes/300.png");
+    img504=loadImage("../img/codes/300.png");
+    img511=loadImage("../img/codes/300.png");
+    img520=loadImage("../img/codes/300.png");
+    img521=loadImage("../img/codes/300.png");
+    img522=loadImage("../img/codes/300.png");
+    img531=loadImage("../img/codes/300.png");
+    img600=loadImage("../img/codes/300.png");
+    img601=loadImage("../img/codes/300.png");
+    img602=loadImage("../img/codes/300.png");
+    img603=loadImage("../img/codes/300.png");
+    img611=loadImage("../img/codes/300.png");
+    img612=loadImage("../img/codes/300.png");
+    img615=loadImage("../img/codes/300.png");
+    img616=loadImage("../img/codes/300.png");
+    img620=loadImage("../img/codes/300.png");
+    img621=loadImage("../img/codes/300.png");
+    img622=loadImage("../img/codes/300.png");
+    img701=loadImage("../img/codes/300.png");
+    img711=loadImage("../img/codes/300.png");
+    img721=loadImage("../img/codes/300.png");
+    img731=loadImage("../img/codes/300.png");
+    img741=loadImage("../img/codes/300.png");
+    img751=loadImage("../img/codes/300.png");
+    img761=loadImage("../img/codes/300.png");
+    img762=loadImage("../img/codes/300.png");
+    img771=loadImage("../img/codes/300.png");
+    img781=loadImage("../img/codes/300.png");
+    img800=loadImage("../img/codes/300.png");
+    img801=loadImage("../img/codes/300.png");
+    img803=loadImage("../img/codes/300.png");
+    img804=loadImage("../img/codes/300.png");
+    imageicon = loadImage("../img/imgs/"+icon+".png");
    
 }
 
@@ -108,6 +161,6 @@ function draw(){
         text("Humidity: "+ str(humidity)+ "%",20,40);
         text("Wind: " +str(wind)+" MPH",20,60);
         text("imageID: "+str(icon)+" ", 20, 80);
-        image(img,80,80);
+        image(imageicon,80,80);
     } 
 }
