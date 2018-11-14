@@ -23,7 +23,11 @@ var img803;
 var img804;
 
 function setup(){
-    createCanvas (800,800);
+    var cnv = createCanvas(800, 800);
+    var x = (windowWidth - width) / 2;
+    var y = (windowHeight - height) / 2;
+    cnv.position(x, y);
+    background(255, 0, 200);
     button = select('#submit');
     city= select('#city');
     button.mousePressed(queryAPI);
