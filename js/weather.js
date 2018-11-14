@@ -71,8 +71,8 @@ function draw(){
     if (weatherData){
         noStroke();
         fill (0);
-        font = loadFont("Arial.ttf"); 
-        textFont(font, 32);
+        font = loadFont("Helvetica.ttf"); 
+        textFont(font, 48);
         textSize(24);
         text("The temperature is " +str(temperature)+" ℉",20,20);
         text("Humidity is at " +str(humidity)+ "%",20,50);
