@@ -74,8 +74,8 @@ function draw(){
         textSize(24);
         text("The temperature is " +str(temperature)+" F",20,20);
         text("Humidity is at " +str(humidity)+ "%",20,50);
-        text("Winds are blowing at " +str(wind)+" MPH",20,70);
-        text("Clouds are at " +str(cloud)+ "%", 20, 90);
+        text("Winds are blowing at " +str(wind)+" MPH",20,80);
+        text("Clouds are at " +str(cloud)+ "%", 20, 110);
         //text("imageID: "+str(icon)+" ", 20, 80);
         //image(img803,80,80);
         
