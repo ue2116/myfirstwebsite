@@ -71,7 +71,7 @@ function draw(){
     if (weatherData){
         noStroke();
         fill (0);
-        font = loadFont("FFScala.ttf"); 
+        font = loadFont("Arial.ttf"); 
         textFont(font, 32);
         textSize(24);
         text("The temperature is " +str(temperature)+" ℉",20,20);
