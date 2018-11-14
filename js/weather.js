@@ -73,44 +73,44 @@ function draw(){
         fill (0);
         textSize(24);
         text("Temperature: " +str(temperature)+" F",20,20);
-        text("Humidity: "+ str(humidity)+ "%",20,40);
-        text("Wind: " +str(wind)+" MPH",20,60);
-        text("Clouds: " +str(cloud)+ "%", 20, 80);
+        text("Humidity: "+ str(humidity)+ "%",20,50);
+        text("Wind: " +str(wind)+" MPH",20,70);
+        text("Clouds: " +str(cloud)+ "%", 20, 90);
         //text("imageID: "+str(icon)+" ", 20, 80);
         //image(img803,80,80);
         
         if((icon==300) || (icon==301) || (icon==301) || (icon==302) || (icon==310) || (icon==311) || (icon==312) || (icon==313) || (icon==314) || (icon==321)){
-            image(img300,80,80);
+            image(img300,180,180);
         }
         else if((icon==200) || (icon==201)|| (icon==202)|| (icon==210)|| (icon==211)|| (icon==212)|| (icon==221)|| (icon==230)|| (icon==231)|| (icon==232)){
-            image(img200,80,80);
+            image(img200,180,180);
         }
         else if((icon==500) || (icon==501)|| (icon==502)|| (icon==503)|| (icon==504) || (icon==511) || (icon==521)|| (icon==522)|| (icon==531)){
-            image(img500,80,80);
+            image(img500,180,180);
         } 
         else if (icon==511){
-            image(img511,80,80);
+            image(img511,180,180);
         }
         else if(icon==520){
-            image(img520,80,80);
+            image(img520,180,180);
         }
         else if((icon==600) || (icon==601)|| (icon==602)|| (icon==603)|| (icon==611) || (icon==612)|| (icon==615)|| (icon==616)|| (icon==620) || (icon==621) || (icon==622)){
-            image(img600,80,80); 
+            image(img600,180,180); 
         }
         else if((icon==701) || (icon==711)|| (icon==721)|| (icon==731)|| (icon==741) || (icon==751)|| (icon==761)|| (icon==762)|| (icon==771) || (icon==781)){
-            image(img701,80,80); 
+            image(img701,180,180); 
         }   
         else if(icon==800){
-            image(img800,80,80);
+            image(img800,180,180);
         } 
         else if(icon==801){
-            image(img801,80,80);
+            image(img801,180,180);
         } 
         else if(icon==803){
-            image(img803,80,80);
+            image(img803,180,180);
         }  
         else if(icon==804){
-            image(img804,80,80);
+            image(img804,180,180);
         }
     } 
 }
