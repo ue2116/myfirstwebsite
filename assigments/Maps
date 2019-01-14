@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment 01</title>
+
+    <!-- Stylesheet link -->
+    <link rel="stylesheet" type="text/css" href="../css/site-specific.css">
+
+    <!-- Google fonts code -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700" rel="stylesheet">
+  </head>
+  <body>
+    <div class="title">
+      <h1>ASSIGNMENT 01 - SLOPE CHART</h1>
+    </div>
+    
+    <hr>
+    <div class="bio">
+     
+      
+      <h2>Description</h2>
+      <img class="chartImage" src="../img/tuft slope graph.gif">
+      
+      <p class="bioText">No. Slope graphs are not your typical graphs of single linear equations plotted in a Cartesian plane. 
+        Rather, they are graphs for comparing slopes between two or more different points in time, for more than one element. 
+        Take Edward Tufte's comparison of different Gross Domestic Products of a number of countries. 
+      </p>
+   
+      <p class="bioText">The graph, from Tufte's 1983 book The Visual Display of Quantitative Information, visually organizes data in a way that allows it to be inspected in several directions. 
+          It provides the opportunity to read the data vertically and horizontally. Vertically, in either column, the data is read in a ranking order; countries with the highest GDP are at the top, and the numerical differences are spatially consistent. 
+          Horizontally, the graph reveals how GDPs of the different countries changed over time. This reading allows for a temporal comparison of the elements (countries, in this case); it is easy to distinguish general patterns (most GDPs are increasing) and outliers (come on, Britain!). 
+        
+         </p>
+
+  <br>
+      <div>
+        
+      <hr>  
+        
+      <h2>History</h2>
+      
+      <p class="bioText"> Although Tufte's unnamed type of graph was considered "new" (since then and until recently), graphs resembling Tufte's have been around for a long time. 
+        The earliest example of a graph that has a similar structure is Fletcher W. Hewes and Henry Gannett's rank of states by population from Scribner's statistical atlas of 1883. 
+        Although the graph can be read horizontally in the same manner as Tufte's graph (the change in ranking by population is appreciated), the same cannot be said about its vertical reading.
+        While Tufte's columns display the same hierarchical ranking data, Hewes and Gannett's 1883 graph display different ranking categories at each end of the graph. While the right side is consistent with the horizontal information, the left side of the chart ranks states not by population at the beginning of the study, but rather by their ratification of the Constitution. 
+      </p>
+   <img class="bioImage" src="../img/slopegraphs_1883.jpg">
+   <img class="bioImage" src="../img/slopegraphs_1883_detail.jpg">
+
+      <p class="bioText"> A similar map, produced in 1914, measuring population change in different states, more closely resembles Tufte's approach to slopegraphs. 
+         Unlike the 1883 map, this map from Willard Cope Brinton's Graphic Methods for Presenting Facts maintain's Tufte's approach to the first and last column's hierarchy. 
+        Both the left-most and right-most columns rank the states by their population, which allows for a clearer horizontal analysis of the  change of population through time. 
+      </p>
+        <img class="bioImage" src="../img/slopegraphs_1914.png">
+      </div>
+      
+<hr>
+      
+       <h2>Types of Data</h2>
+      <p class="bioText"> As slope graphs track changes over time and ranks items hierarchically, the order of values of the data must be known. 
+        Given this, data represented in slope graphs can only be scales of ordinal, interval, or ratios, and the data must be collected over a period of time. 
+        Take another of Tuske's graph's as an example. 
+        On the left, the percent of survival rates by cancer site is represented numerically. The leftmost column ranks the data from highest at the top, to lowest at the bottom.
+        On the right, the data is translated into a slope graph; here, the data is represented in a way that visually illustrates changes in values.
+        It is easy to distinguish which types of cancer decreased in survival rates over time, and by how much. 
+        As other types of data (nominal, for example), do not reveal any specific structure or order, these cannot be adequately represented using slope graphs. 
+        
+      </p>
+         <img class="bioImage" src="../img/cancer.jpg">
+      
+  <hr>    
+       <h2>Examples</h2>
+      
+      <p class="bioText"> Behold, more examples of slope graphs, and what they bring to the slope graph table. 
+        In the example below, describing the internet download speeds by country, positive and negative slopes are distinguished by color. 
+        Line weight of slopes can be used to call out specific elements, as is used in this case to highlight the (sadly) slow and decreasing download speeds in the United States. 
+      </p>
+      
+        <img class="biochart2Image" src="../img/internetdownloads.gif">
+        
+      <p class="bioText">  The next example uses color to distinguish positive and negative slopes, and also uses line weight of the slopes in order to distinguish further visual order.
+        The line weights in this graph help the reader see hierarchy, and better connects the left column's order to that on the right.
+        However, unlike typical slope graphs, this graph does not have the same unit of analysis on both the right and the left. 
+        On one side, it displays the win/loss ratio, while on the other, it shows the annual budget of each team, ranked. 
+      </p>
+        <img class="biochart2Image" src="../img/salaryper.png">
+       
+      <p class="bioText"> So does this mean that slope graphs do not necessarily need to have the same unit of analysis on both sides in order to be considered slope graphs?
+        It could be said that these graphs are a type of slope graphs. And these graphs can be helpful in many ways. Take the graph below as an example.
+      In this slope graph from windingroads.com, which compares the speed for cost of different vehicles, each column represents a different variable, however, the reason for this is that each variable is used in a mathematical equation in order to determine the best speed for value of all the vehicles.
+       The columns are ranked (highest to lowest or vice versa depending on what is most valued for each variable), as in a typical slope graph. 
+        The relationship between the different variables through the use of the equation reveals that not all variables must have the same weight, as can be extrapolated from the regular slope graph where on each end the variables are the same and are ranked similarly. 
+        As this graph reveals, the vehicle with the highest horsepower is not necessarily the car with the highest speed for its value. 
+      </p>
+        <img class="biochartImage" src="../img/spd.jpg">
+      
+ <hr>     
+      <h2>How to Build a Slope Chart</h2>
+       <p class="bioText"> 
+      Although these graphs look simple, slope graphs are not necessarily easy to make. A lot of the examples above were drawn by hand, or were created using software such as illustrator.
+      Some software tools do exist, such as slopegraphs in R and Tableau. 
+      When doing slope graphs, these type of software create a vertical numerical axis with evenly spaced units, in order to visually create hierarchy. 
+      These type of programs also detect overlapping labels that otherwise make the chart hard to read. 
+      The same goes for charts created by hand; when making these charts on illustrator, for example, it is important that the vertical axes have a consistent numerical order, that the elements are ordered hierarchically in both columns, that the labels of each element are clear and easy to read, and that the the slopes connecting both columns are relative and consistent with all others, for comparison. 
+       </p>
+       <hr>     
+      <h2>Pros and Cons of Slope Charts</h2>
+      
+      <p class="bioText">
+        We've covered some of the great things about slope graphs: they are easy to read, they allow us to see relative change over time, to identify outliers, general trends, and relationships between variables. But what about the cons? 
+      Slope graphs, in their simplicity, obscure other parts of the data. For example, if we think of each line as representing a linear equation, then the graph only represents the slope of the equation. The graph does not allow for interpretation of correlations, nor does it reveal any constants affecting each slope. 
+      It also negates representation of standard errors, which, if represented, would be hard to visualize when the slope graph allows for slopes themselves to become very large (whenever there are extreme outliers), in which case, logarithms of the variables (whenever possible) can be used.
+      But hey, one type of chart cannot do everything. That's why there are a million types of charts. 
+      </p>
+      
+ <hr>
+      <p class="bioText"><a href="../index.html">Take me back home...</a></p>
+    </div>
+  </body>
+</html>
+© 2019 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
